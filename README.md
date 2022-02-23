@@ -151,7 +151,6 @@ The majority of the labels in the dataset are connected with autos and pedestria
 
 Images were captured in a variety of settings (subway, highway, city), under various weather conditions (foggy/sunny), and at various times of the day (day/night). Vehicles have red bounding boxes, cyclists have green bounding boxes, while pedestrians have blue bounding boxes.
 
-![img1](images/img1.png)![img2](images/img2.png)![img3](images/img3.png)![img4](images/img4.png)![img5](images/img5.png)![img6](images/img6.png)![img7](images/img7.png)![img8](images/img8.png)![img9](images/img9.png)![img10](images/img10.png)
 
 Further examination of the dataset reveals that the bulk of the photographs involve vehicles and pedestrians (majority vehicles), with only a few sample images containing bikes. A bar plot of the distribution of classes (automobiles, pedestrians, and cyclists) over a collection of 20000 random photos in the dataset is shown in the chart below. In the "Exploratory Data Analysis.ipynb" notebook, the analysis is updated.
 
