@@ -21,7 +21,7 @@ def split(data_dir):
     # You should move the files rather than copy because of space limitations in the workspace.
 
     data_path = os.path.join(os.getcwd(),data_dir,'waymo','training_and_validation')
-    data = os.listdir(data_path)
+    data = random.shuffle(os.listdir(data_path))
     split_ratio = 0.9
     split_index = int(len(data) * split_ratio)
     train_data, val_data = data[:split_index], data[split_index:]
