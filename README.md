@@ -121,7 +121,6 @@ The dataset used for this purpose is [Waymo](https://waymo.com/open/) which can 
 
 ### Set up
 
-```
 - The following libraries can be installed
 
 ```
@@ -155,24 +154,6 @@ Images were captured in a variety of settings (subway, highway, city), under var
 ![img1](images/img1.png)![img2](images/img2.png)![img3](images/img3.png)![img4](images/img4.png)![img5](images/img5.png)![img6](images/img6.png)![img7](images/img7.png)![img8](images/img8.png)![img9](images/img9.png)![img10](images/img10.png)
 
 Further examination of the dataset reveals that the bulk of the photographs involve vehicles and pedestrians (majority vehicles), with only a few sample images containing bikes. A bar plot of the distribution of classes (automobiles, pedestrians, and cyclists) over a collection of 20000 random photos in the dataset is shown in the chart below. In the "Exploratory Data Analysis.ipynb" notebook, the analysis is updated.
-
-The distribution of vehicles/cars, pedestrians, and cyclists in 20000 is depicted in the histogram charts below.
-
-***Distribution of Cars***
-
-![car distribution](images/cars_dist.png)
-
-We discovered that out of the 20000 photos, more than 15000 had at least 10 cars, and the greatest number of vehicles present in single item is around 67.
-
-***Distribution of Pedestrians***
-
-![pedestrians distribution](images/peds_dist.png)
-
-We discovered that out of the 20000 photos, approximately 5000 have at least 10 pedestrians in them. At least one pedestrian appears in over 10,000 photos.
-
-***Distribution of Cyclits***
-
-![cyclits distribution](images/cyc_dist.png)
 
 We noticed that there are extremely few cyclists in the photographs. Only about 2400 photos feature at least one cyclist, while the maximum number of cyclists present in each image is only 6.
 
@@ -211,19 +192,6 @@ Augmentations applied:
 - 0.02 probability of grayscale conversion
 - brightness adjusted to 0.3
 - contrast values between 0.6 and 1.0
-
-Grayscale images:
-
-<img src="https://i.imgur.com/ft9s4xx.png">
-
-Night(Darker) Images:
-
-<img src="https://i.imgur.com/rnhigAX.png">
-
-Contrast Images:
-
-<img src="https://i.imgur.com/pGJiRg3.png">
-
 
 
 The details of the run can be found here : "Explore augmentations.ipynb"
